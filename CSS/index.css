@@ -1,0 +1,130 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.leader{
+    height: 65px;
+    background-color: #29bde0;
+}
+
+.description{
+    width: 92%;
+    border: solid rgb(201, 201, 201) 1px;
+    font-size: 18px;
+    color: rgb(201, 201, 201);
+    margin: 12px auto;
+    background-color: white;
+}
+
+.description>div{
+    height: 58px;
+    line-height: 58px;
+    float: left;
+    margin-left: 50px;
+}
+
+.description>span{
+    margin: 0 auto;
+    line-height: 58px;
+    height: 58px;
+    float: right;
+}
+
+#content{
+    background-color: white;
+    width: 92%;
+    height: 500px;
+    margin: 12px auto;
+    border: solid rgb(201, 201, 201) 1px;
+    position: relative;
+}
+
+#killgame{
+    display: none;
+    letter-spacing: 3px;
+}
+
+#killgame li{
+    text-align: center;
+}
+
+#killgame li:first-child{
+    color: #ffc561;
+    font-size: 21px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid #fdd793;
+}
+
+#killgame li:not(:first-child){
+    width: 80%;
+    height: 95px;
+    background-color: #42cae9;
+    color: white;
+    line-height: 95px;
+    margin: 15px auto 40px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#ghostgame{
+    letter-spacing: 3px;
+}
+
+#ghostgame li{
+    text-align: center;
+}
+
+#ghostgame li:first-child{
+    color: #ffc561;
+    font-size: 21px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid #fdd793;
+}
+
+#ghostgame li:not(:first-child){
+    width: 80%;
+    height: 95px;
+    background-color: #42cae9;
+    color: white;
+    line-height: 95px;
+    margin: 60px auto 80px;
+    font-size: 20px;
+}
+
+#page{
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+    display: flex;
+}
+
+#page_one{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffc561;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#page_two{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+    margin-right: 5px;
+}
