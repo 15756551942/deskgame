@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/查看身份.css">
+    <link rel="stylesheet" href="../清除样式表/reset.css">
+    <link rel="stylesheet" href="../图标字体/css/all.css">
+    <script src="../JS/查看身份.js"></script>
     <title>查看身份</title>
 </head>
 <body>
-    
+    <div class="leader">
+        <div class="fas fa-angle-left" style="color: white; font-size: 35px; padding: 15px 12px;"></div>
+        <div>查看身份</div>
+        <div class="fas fa-angle-right" style="color: white; font-size: 35px; padding: 15px 12px;"></div>
+    </div>
+    <div class="show_content">
+        <div><span id="top_code"></span></div>
+        <div>
+            <img src="../image/hiddden.jpg" style="width: 65%; margin-top: 100px; margin-left: 45px;" id="hidden_img">
+            <img src="../image/show.jpg" style="width: 55%; margin-top: 50px; margin-left: 60px;" id="show_img">
+            <div></div>
+        </div>
+        <div>
+            <div id="hidden_btn">查看<span id="hidden_bottom_code"></span>号身份</div>
+            <div id="show_btn">隐藏并传递给<span id="show_bottom_code"></span>号</div>
+        </div>
+    </div>
 </body>
 </html>
