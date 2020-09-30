@@ -45,7 +45,7 @@ window.onload = function(){
         if(num_player.value >= 4 && num_player.value <= 18){
             var str = JSON.stringify(sum_player);
             sessionStorage.setItem('sum_player',str);
-            // console.log(str);
+            console.log(str);
             window.location.href = '查看身份.html';
         }else{
             alert('请输入正确的玩家数量');

@@ -24,9 +24,9 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.show_content{
+/* .show_content{
     position: relative;
-}
+} */
 
 .show_content>div:first-child{
     width: 45px;
@@ -68,4 +68,11 @@ body{
 
 #show_btn{
     display: none;
+}
+
+#identify{
+    font-size: 25px;
+    color: #00bbe6;
+    margin-top: 10px;
+    margin-left: 38%;
 }
