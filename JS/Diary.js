@@ -3,8 +3,13 @@ window.onload = function(){
     sum_player = JSON.parse(sum_player);
     console.log(sum_player);
     var content = document.getElementById('content'),
-        btn = document.getElementById('btn');
+        btn = document.getElementById('btn'),
+        back = document.getElementById('back');
 
+    back.onclick = function(){
+        window.location.href = '查看身份.html';
+    }
+    
     for(var i = 0;i < sum_player.length;i++){
         var div = document.createElement('div');
         var text = document.createTextNode(sum_player[i]);

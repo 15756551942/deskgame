@@ -2,9 +2,12 @@ window.onload = function(){
     var num_player = document.getElementById('num_player'),
     num_killer = document.getElementById('num_killer'),
     num_pep = document.getElementById('num_pep'),
-    go = document.getElementById('go');
+    go = document.getElementById('go'),
+    back = document.getElementById('back');
 
-
+    back.onclick = function(){
+        window.location.href = 'index.html';
+    }
     function shuffle(arr){
         var len = arr.length;
         for(var i = 0; i < len - 1; i++){

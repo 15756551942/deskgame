@@ -9,8 +9,13 @@ window.onload = function(){
     show_btn = document.getElementById('show_btn'),
     identify = document.getElementById('identify'),
     hidden_img = document.getElementById('hidden_img'),
-    show_img = document.getElementById('show_img');
+    show_img = document.getElementById('show_img'),
+    back = document.getElementById('back');
 
+
+    back.onclick = function(){
+        window.location.href = '玩家配比.html';
+    }
     var top_code_num = 1;
     top_code.innerText = top_code_num;
     hidden_bottom_code.innerText = top_code_num;

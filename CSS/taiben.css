@@ -30,6 +30,10 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+#content1{
+    overflow: scroll;
+}
+
 #one_handle{
     width: 95%;
     margin: 10px auto;
@@ -113,22 +117,28 @@ body{
     color: rgb(255, 255, 255);
 }
 
+#insert{
+    overflow: scroll;
+}
+
 .footer2{
     width: 100%;
-    height: 100px;
-    /* line-height: 100px; */
-    /* background-color: rgb(255, 255, 255); */
+    height: 80px;
+    background-color: #52beda;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 
 .footer2>div{
     width: 80%;
-    height: 50px;
-    line-height: 50px;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+    height: 48px;
+    line-height: 48px;
     text-align: center;
-    background-color: #fbb435;
-    margin: 30px auto;
+    background-color: #fbb435
 }
